@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
   faCss3,
   faGitAlt,
-  faHtml5,
+  faNodeJs,
   faJsSquare,
   faReact,
+  faPython,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -33,28 +33,30 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm a recent graduate of Full Stack Development Course with 
+            practical experience of front-end and back-end web development 
+            with tools such as React.js, Express.js,Node.js, MongoDB, etc and 
+            can work independently from development to production process and 
+            build up e-commerce sites. 
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            I'm also an experienced QA.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+          I believe the tech industry is full of opportunities because there 
+          is always a room for innovation and development and it often attracts 
+          people from a variety of backgrounds. I believe working in tech allows
+           us to evaluate problems and create solutions.
           </p>
         </div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faPython} color="#DD0031" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <FontAwesomeIcon icon={faNodeJs} color="#F06529" />
             </div>
             <div className="face3">
               <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
