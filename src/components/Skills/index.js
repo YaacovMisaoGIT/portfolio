@@ -33,7 +33,7 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
+          <p className='para-first'>
             I play diiferent roles as from a developer to a software tester.
             My experienced included building cloned e-commerce sites with all
             functionalities and all necessary requirements requires of an informational car sales site. 

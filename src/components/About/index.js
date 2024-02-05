@@ -32,7 +32,7 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
+          <p className='para-first'>
             I'm a recent graduate of Full Stack Development Course with 
             practical experience of front-end and back-end web development 
             I can work independently from development to production process and 
