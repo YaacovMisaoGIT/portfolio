@@ -86,6 +86,15 @@ const About = () => {
             </li>
           ))}
         </ul>
+
+        <ul>
+          {imgData3.map((item) => (
+            <li >
+              <img src = {item.src} className='custom-image'/>
+              <p className='img-title'> {item.title} </p>
+            </li>
+          ))}
+        </ul>
      
 
         </div>

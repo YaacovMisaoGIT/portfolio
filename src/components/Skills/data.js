@@ -46,9 +46,13 @@ export const imgData = [
         title: 'FIREBASE',
         src: "SKILLS/firebase.png",
       },
-      {
-        id: 8,
-        title: 'MONGO',
-        src: "SKILLS/mongodb.png",
-      },
+    
+  ]
+
+  export const imgData3 = [
+    {
+      id: 9,
+      title: 'MONGO',
+      src: "SKILLS/mongodb.png",
+    },
   ]
