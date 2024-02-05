@@ -16,7 +16,7 @@ const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
-    return setTimeout(() => {
+    return setTimeout(() => {      
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
@@ -35,8 +35,7 @@ const About = () => {
           <p>
             I'm a recent graduate of Full Stack Development Course with 
             practical experience of front-end and back-end web development 
-            with tools such as React.js, Express.js,Node.js, MongoDB, etc and 
-            can work independently from development to production process and 
+            I can work independently from development to production process and 
             build up e-commerce sites. 
           </p>
           <p align="LEFT">

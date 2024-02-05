@@ -49,7 +49,7 @@ const About = () => {
 
           </p>
           </p>
-          <p>
+          {/* <p>
           • Technology stack:
             JavaScript
             React
@@ -64,7 +64,7 @@ const About = () => {
             Postman
             Git
             JIRA 
-          </p>
+          </p> */}
       
         </div>
 
